@@ -1,3 +1,4 @@
+
 import React from "react";
 import { FiShare2 } from "react-icons/fi";
 import { FaUserFriends, FaSuitcase, FaDoorOpen } from "react-icons/fa";
@@ -13,7 +14,7 @@ import car4 from "../../../Images/blog3.jpg";
 import car5 from "../../../Images/blog4.jpg";
 import Calendar from "../Calendar/Calendar";
 
-export default function order() {
+export default function Order() {
   return (
     <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-50 mt-[-50px] mb-[-50px] mx-auto px-4 py-10">
     <div className="mb-6 px-5  lg:px-6 xl:px-40  max-w-[1500px]">

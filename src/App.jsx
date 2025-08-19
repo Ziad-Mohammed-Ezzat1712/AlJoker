@@ -8,7 +8,8 @@ import About from './Components/About/About';
 
 import BlogDetails from './Components/BlogDetails/BlogDetails';
 import Brands from './Components/Brands/Brands';
-import Order from './Components/Order/order';
+import Order from './Components/Order/Order';
+
 
 
 
