@@ -5,9 +5,10 @@ import Layout from './Components/Layout/Layout';
 import OurCar from './Components/OurCar/OurCar';
 import BlogPage from './Components/BlogPage/BlogPage';
 import About from './Components/About/About';
-import Order from './Components/Order/order';
+
 import BlogDetails from './Components/BlogDetails/BlogDetails';
 import Brands from './Components/Brands/Brands';
+import Order from './Components/Order/order';
 
 
 
