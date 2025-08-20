@@ -19,7 +19,7 @@ export default function Footer() {
             <h2 className="font-semibold text-lg mb-4">Quick Links</h2>
            <Link to="/"> <p className="mb-2 font-medium text-[16px] cursor-pointer hover:underline">Home </p></Link>
             <Link to="/ourcars"> <p className="mb-2 font-medium text-[16px] cursor-pointer hover:underline">Our Cars </p></Link>
-            <Link to="/"> <p className="mb-2 font-medium text-[16px] cursor-pointer hover:underline">Contact </p></Link>
+            <Link to="contact"> <p className="mb-2 font-medium text-[16px] cursor-pointer hover:underline">Contact </p></Link>
             <Link to="/about"> <p className="mb-2 font-medium text-[16px] cursor-pointer hover:underline">About </p></Link>
             <Link to="/blog"> <p className="mb-2 font-medium text-[16px] cursor-pointer hover:underline">Blogs </p></Link>
           </div>

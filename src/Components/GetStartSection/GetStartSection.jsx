@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function GetStartSection() {
   const cards = [
@@ -63,11 +64,11 @@ export default function GetStartSection() {
               {card.title}
             </h3>
             <p className="text-[#050B20] text-[16px] font-medium mb-4">{card.description}</p>
-            <button
+           <Link to="/ourcars"> <button
               className={`${card.buttonColor} text-white text-[18px] font-semibold px-4 py-2 rounded-lg inline-flex items-center gap-2`}
             >
               {card.buttonText} <ArrowUpRight size={18} />
-            </button>
+            </button></Link>
           </div>
           <div>{card.icon}</div>
         </div>

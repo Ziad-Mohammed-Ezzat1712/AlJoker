@@ -24,7 +24,7 @@ const CarListing = () => {
   const currentCars = allCars.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   return (
-    <div className="bg-white min-h-screen   lg:mt-[-90px] lg:mb-[-80px] lg:rounded-[100px] py-10 px-4 md:px-10 relative z-50">
+    <div className="bg-white min-h-screen   lg:mt-[-90px] lg:mb-[-80px] lg:rounded-[100px] py-10 px-4 md:px-10 relative z-40">
       {/* Breadcrumb and Heading */}
       <div className="mb-6">
         <p className="text-[20px] font-medium">

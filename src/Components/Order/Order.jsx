@@ -16,12 +16,12 @@ import Calendar from "../Calendar/Calendar";
 
 export default function Order() {
   return (
-    <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-50 mt-[-50px] mb-[-50px] mx-auto px-4 py-10">
+    <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-40 mt-[-50px] mb-[-50px] mx-auto px-4 py-10">
     <div className="mb-6 px-5  lg:px-6 xl:px-40  max-w-[1500px]">
         <p className="text-[20px] font-medium">
-          <span className="text-[#D72638]">Home</span> / Our Cars
+          <span className="text-[#D72638]">Home</span> / Your Order detials
         </p>
-        <h2 className="text-[40px] font-semibold mt-1">Our Cars</h2>
+        <h2 className="text-[40px] font-semibold mt-1">Your order detials</h2>
        
       </div>
 
@@ -114,7 +114,7 @@ export default function Order() {
           </div>
 
           {/* Specifications */}
-          <div className="bg-white mx-auto mt-6 md:mt-20 rounded-xl p-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="bg-white mx-auto mt-6 md:mt-20 rounded-xl p-6 grid grid-cols-2 sm:grid-cols-2 gap-6">
             <div className="flex items-center gap-3">
               <FaRegCalendarAlt className="text-[18px] text-[#D72638]" />
               <span className="text-[#050B20] text-[16px]">2023</span>

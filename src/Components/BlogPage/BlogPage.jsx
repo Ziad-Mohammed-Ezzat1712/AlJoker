@@ -37,8 +37,8 @@ const navigate = useNavigate();
   const selectedPosts = posts.slice(startIndex, startIndex + postsPerPage);
 
   return (
-    <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-50 mt-[-50px] mb-[-50px] mx-auto px-4 py-10">
-     <div className="mb-6 px-12">
+    <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-40 xl:mt-[-50px]  mt-[-20px] mb-[-50px] mx-auto px-4 py-10">
+     <div className="mb-6 xl:px-12">
         <p className="text-[20px] font-medium ">
           <span className="text-[#D72638] ">Home</span> / Blogs
         </p>

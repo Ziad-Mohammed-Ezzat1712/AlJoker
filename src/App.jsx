@@ -9,6 +9,8 @@ import About from './Components/About/About';
 import BlogDetails from './Components/BlogDetails/BlogDetails';
 import Brands from './Components/Brands/Brands';
 import Order from './Components/Order/Order';
+import ContactUs from './Components/ContactUs/ContactUs';
+import { LanguageProvider  } from './Context/LanguageContext';
 
 
 
@@ -23,6 +25,7 @@ let x = createBrowserRouter([
     {path : "ourcars",element:<OurCar/> },
     {path : "blog",element:<BlogPage/> },
     {path : "about",element:<About/> },
+    {path : "contact",element:<ContactUs/> },
     {path : "order",element:<Order/> },
     {path : "brands",element:<Brands/> },
     {path : "/blog/:id",element:<BlogDetails /> },
@@ -37,9 +40,9 @@ function App() {
   return(
   
   <>
- 
+ <LanguageProvider >
       <RouterProvider router={x}></RouterProvider>
- 
+ </LanguageProvider >
   </>
   )
 }

@@ -122,7 +122,7 @@ export default function MostSearchedCars() {
                 <img
                   src={car.img}
                   alt={car.name}
-                  className="w-[328px] h-[218.64999389648438px] object-contain rounded-lg "
+                  className="xl:w-[328px] h-[218.64999389648438px] xl:object-contain object-cover   rounded-lg "
                 />
 
                 {/* تفاصيل */}

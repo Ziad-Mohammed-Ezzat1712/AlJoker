@@ -1,5 +1,5 @@
 // SelectBodyStyle.jsx
-import React from "react";
+import React, { useContext } from "react";
 import Sedan from "../../../Images/Sedan.jpg";
 import Coupe from "../../../Images/Coupe.jpg";
 import SUV from "../../../Images/SUV.jpg";
@@ -13,20 +13,25 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const carTypes = [
-  { name: "Sedan", img: Sedan },
-  { name: "Coupe", img: Coupe },
-  { name: "SUV", img: SUV },
-  { name: "Truck", img: Truck },
-  { name: "Hatchback", img: Hatchback },
-  { name: "Convertible", img: Convertible },
-];
+// Context
+import { LanguageContext } from "../../Context/LanguageContext";
 
 export default function SelectBodyStyle() {
+  const { isArabic } = useContext(LanguageContext);
+
+  const carTypes = [
+    { name: isArabic ? "سيدان" : "Sedan", img: Sedan },
+    { name: isArabic ? "كوبيه" : "Coupe", img: Coupe },
+    { name: isArabic ? "دفع رباعي" : "SUV", img: SUV },
+    { name: isArabic ? "شاحنة" : "Truck", img: Truck },
+    { name: isArabic ? "هاتشباك" : "Hatchback", img: Hatchback },
+    { name: isArabic ? "قابلة للتحويل" : "Convertible", img: Convertible },
+  ];
+
   return (
     <div className="text-center py-10 bg-[#F9FAFB]">
       <h2 className="text-[32px] md:text-[40px] font-semibold text-[#050B20] mb-10">
-        Select a Body Style
+        {isArabic ? "اختر نوع السيارة" : "Select a Body Style"}
       </h2>
 
       <div className="max-w-6xl mx-auto px-4">
@@ -39,7 +44,7 @@ export default function SelectBodyStyle() {
             480: { slidesPerView: 2.8 },
             768: { slidesPerView: 3 },
             1024: { slidesPerView: 4 },
-            1280: { slidesPerView: 5.8},
+            1280: { slidesPerView: 5.8 },
           }}
         >
           {carTypes.map((car, idx) => (

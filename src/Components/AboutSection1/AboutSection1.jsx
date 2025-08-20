@@ -12,7 +12,7 @@ export default function AboutSection1() {
   
   return (
     <div className="mb-10">
-    <div className="mb-6 px-55">
+    <div className="mb-6 xl:px-55 px-12">
         <p className="text-[20px] font-medium ">
           <span className="text-[#D72638] ">Home</span> / About
         </p>
@@ -21,14 +21,14 @@ export default function AboutSection1() {
 
         <div className="flex flex-col md:flex-row  justify-around px-12 gap-4">
   {/* Left - Text */}
-  <div className="flex justify-center max-w-[470px] text-center md:text-left">
+  <div className="flex justify-center max-w-[470px] xl:text-center md:text-left">
     <h2 className="text-[40px] font-semibold">
       We Value Our Clients And Want Them To Have A Nice Experience
     </h2>
   </div>
 
   {/* Right - Paragraphs */}
-  <div className="space-y-4 max-w-[570px] text-center md:text-left">
+  <div className="space-y-4 max-w-[570px] xl:text-center md:text-left">
     <p className="text-[16px]">
       launched its independent activity in the field of car rental services in Dubai in 2024 under the Dubai government license number 1111111, with the support of the knowledge and experience of the experts in the car industry. 
     </p>

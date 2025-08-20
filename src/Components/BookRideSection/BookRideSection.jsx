@@ -4,9 +4,9 @@ import carImage from "../../../Images/sextion.jpg"; // ← غير المسار �
 export default function HeroSection() {
   return (
 
-    <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto ">
       {/* Left side - Text */}
-      <div className="bg-black text-white flex justify-between items-center px-10 py-16 h-[300px] md:h-[442px] md:col-span-2">
+      <div className="bg-black text-white flex justify-between items-center xl:px-40 px-5  py-16 md:h-[442px] md:col-span-2 rounded-xl">
        <div> <h2 className="text-[40px] font-semibold mb-4 leading-snug">
           Once the engine starts, the <br /> adventure begins.
         </h2>
@@ -22,11 +22,11 @@ export default function HeroSection() {
    
 
       {/* Right side - Image */}
-      <div className="w-full h-[250px] md:h-[442px] md:col-span-1">
+      <div className="w-full h-[250px] md:h-[442px] md:col-span-1 ">
         <img
           src={carImage}
           alt="Car"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-xl"
         />
       </div>
     </div>

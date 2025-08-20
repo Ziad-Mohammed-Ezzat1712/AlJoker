@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
@@ -7,30 +7,38 @@ import CarSlider from '../../../Images/CarSlidar.png';
 import "swiper/css";
 import "swiper/css/navigation";
 import "../HeroSlider/sliderCustom.css"; // ملف CSS المخصص للأزرار
-
-const slides = [
-  {
-    id: 1,
-    title: "Save big with our car rental",
-    subtitle:
-      "Discover the Best Cheap Car Rental Deals with Daily, Weekly and Monthly Offers",
-    img: CarSlider
-  },
-  {
-    id: 2,
-    title: "Luxury Cars at Affordable Rates",
-    subtitle: "Drive the car of your dreams for less than you think",
-    img: CarSlider
-  },
-  {
-    id: 3,
-    title: "Drive in Style and Comfort",
-    subtitle: "Choose from our wide range of premium vehicles",
-    img: CarSlider
-  },
-];
+import { LanguageContext } from "../../Context/LanguageContext";
 
 export default function HeroSlider() {
+  const { isArabic } = useContext(LanguageContext);
+
+  const slides = [
+    {
+      id: 1,
+      title: isArabic ? "وفر كثير مع تأجير سياراتنا" : "Save big with our car rental",
+      subtitle: isArabic
+        ? "اكتشف أفضل عروض تأجير السيارات اليومية والأسبوعية والشهرية"
+        : "Discover the Best Cheap Car Rental Deals with Daily, Weekly and Monthly Offers",
+      img: CarSlider
+    },
+    {
+      id: 2,
+      title: isArabic ? "سيارات فاخرة بأسعار مناسبة" : "Luxury Cars at Affordable Rates",
+      subtitle: isArabic
+        ? "قد السيارة التي تحلم بها بأقل من المتوقع"
+        : "Drive the car of your dreams for less than you think",
+      img: CarSlider
+    },
+    {
+      id: 3,
+      title: isArabic ? "قد بأناقة وراحة" : "Drive in Style and Comfort",
+      subtitle: isArabic
+        ? "اختر من بين مجموعة واسعة من السيارات المميزة"
+        : "Choose from our wide range of premium vehicles",
+      img: CarSlider
+    },
+  ];
+
   return (
     <div className="relative w-full">
       <Swiper
@@ -67,14 +75,13 @@ export default function HeroSlider() {
       </Swiper>
 
       {/* أزرار التنقل */}
-      <div >
-        
-       <button className="swiper-button-prev bg-white rounded-full text-md p-2 ">
-        <FaChevronLeft className="text-red-500 " />
-      </button>
-      <button className="swiper-button-next bg-white rounded-full text-md p-2 ">
-        <FaChevronRight className="text-red-500 " />
-      </button>
+      <div>
+        <button className="swiper-button-prev bg-white rounded-full text-md p-2">
+          <FaChevronLeft className="text-red-500" />
+        </button>
+        <button className="swiper-button-next bg-white rounded-full text-md p-2">
+          <FaChevronRight className="text-red-500" />
+        </button>
       </div>
     </div>
   );
