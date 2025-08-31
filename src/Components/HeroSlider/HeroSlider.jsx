@@ -49,23 +49,23 @@ export default function HeroSlider() {
         }}
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         loop
-        className="h-[680px] rounded-2xl"
+        className="xl:h-[680px] md:h-[680px] h-[350px] xl:rounded-2xl"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div
-              className="relative h-full bg-center bg-cover flex flex-col justify-center items-center text-center px-4"
+              className="relative h-full bg-center bg-cover xl:bg-cover bg-no-repeat flex flex-col justify-center items-center text-center px-4"
               style={{ backgroundImage: `url(${slide.img})` }}
             >
               {/* خلفية داكنة */}
-              <div className="absolute inset-0 bg-black/40 rounded-2xl"></div>
+              <div className="absolute inset-0 bg-black/40 xl:rounded-2xl"></div>
 
               {/* النص */}
-              <div className="relative top-[-150px] z-10">
+              <div className="relative xl:top-[-150px] md:top-[-100px] sm:top-[-100px] top-[-70px] z-10">
                 <p className="text-white font-medium text-[18px] md:text-[18px] mb-2">
                   {slide.subtitle}
                 </p>
-                <h2 className="text-[#D72638] font-bold text-[60px] md:text-[60px]">
+                <h2 className="text-[#D72638] font-bold xl:text-[60px] text-[30px] md:text-[60px]">
                   {slide.title}
                 </h2>
               </div>

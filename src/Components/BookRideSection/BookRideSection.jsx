@@ -6,8 +6,8 @@ export default function HeroSection() {
 
     <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto ">
       {/* Left side - Text */}
-      <div className="bg-black text-white flex justify-between items-center xl:px-40 px-5  py-16 md:h-[442px] md:col-span-2 rounded-xl">
-       <div> <h2 className="text-[40px] font-semibold mb-4 leading-snug">
+      <div className="bg-black text-white xl:flex sm:flex md:flex lg:flex justify-between items-center xl:px-40 px-5  py-16 md:h-[442px] md:col-span-2 rounded-xl">
+       <div> <h2 className="xl:text-[40px] text-[30px] font-semibold mb-4 leading-snug">
           Once the engine starts, the <br /> adventure begins.
         </h2>
         <p className="text-white  font-medium text-[20px] mb-6">
@@ -22,7 +22,7 @@ export default function HeroSection() {
    
 
       {/* Right side - Image */}
-      <div className="w-full h-[250px] md:h-[442px] md:col-span-1 ">
+      <div className="w-full h-[250px] md:h-[442px] md:col-span-1 mt-1 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-0 ">
         <img
           src={carImage}
           alt="Car"

@@ -75,7 +75,7 @@ export default function NaveBar() {
     <>
       {/* Navbar */}
       <nav className="bg-black top-0 right-0 left-0 z-30 shadow-md relative">
-        <div className="flex justify-between items-center mx-auto px-4 lg:px-10 py-4 pb-20">
+        <div className="flex justify-between items-center mx-auto px-4 lg:px-10 py-4 xl:pb-20  md:pb-20 lg:pb-20">
           {/* Left side */}
           <div className="flex items-center gap-8 px-2">
             <NavLink to="/" className="flex items-center">
@@ -132,6 +132,16 @@ export default function NaveBar() {
                   }
                 >
                   {isArabic ? "اتصل بنا" : "Contact"}
+                </NavLink>
+              </li>
+                 <li>
+                <NavLink
+                  to="/contact2"
+                  className={({ isActive }) =>
+                    `font-medium px-3 text-[15px] ${isActive ? "text-[#D72638]" : "text-white"}`
+                  }
+                >
+                  <i className="fa-solid fa-mobile"></i> +75 123 456 789
                 </NavLink>
               </li>
             </ul>

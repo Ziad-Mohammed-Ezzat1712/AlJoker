@@ -40,7 +40,7 @@ export default function SelectBodyStyle() {
           navigation
           spaceBetween={100}
           breakpoints={{
-            320: { slidesPerView: 1 },
+            320: { slidesPerView: 2 },
             480: { slidesPerView: 2.8 },
             768: { slidesPerView: 3 },
             1024: { slidesPerView: 4 },

@@ -40,7 +40,7 @@ export default function WhyChooseUsSection() {
     
       <section className="py-16 max-w-[1450px] mx-auto bg-gray-50" id="services">
         <div className="container mx-auto px-4 text-center">
-          <div className="grid gap-x-8 md:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-4">
             {services.map((service, index) => (
               <div
                 key={index}
