@@ -27,6 +27,7 @@ let x = createBrowserRouter([
     {path : "blog",element:<BlogPage/> },
     {path : "about",element:<About/> },
     {path : "contact",element:<ContactUs/> },
+    {path : "contact2",element:<ContactUs/> },
     {path : "yourorder",element:<YourOrder/> },
    
     {path : "brands",element:<Brands/> },

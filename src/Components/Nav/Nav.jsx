@@ -134,6 +134,16 @@ export default function Nav() {
                   {isArabic ? "اتصل بنا" : "Contact"}
                 </NavLink>
               </li>
+              <li>
+                              <NavLink
+                                to="/contact2"
+                                className={({ isActive }) =>
+                                  `font-medium px-3 text-[15px] ${isActive ? "text-[#D72638]" : "text-white"}`
+                                }
+                              >
+                                <i className="fa-solid fa-mobile"></i> +75 123 456 789
+                              </NavLink>
+                            </li>
             </ul>
           </div>
 
