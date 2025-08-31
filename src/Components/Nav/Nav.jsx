@@ -190,7 +190,7 @@ export default function Nav() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="lg:hidden bg-black text-white absolute top-full left-0 w-full flex flex-col items-start p-5 space-y-4 z-30">
+          <div className="lg:hidden bg-black text-white  top-full left-0 w-full flex flex-col items-start p-5 space-y-4 z-30">
             {/* Links */}
             <NavLink to="/" className="w-full py-2 border-b border-gray-700" onClick={toggleMenu}>
               {isArabic ? "الرئيسية" : "Home"}

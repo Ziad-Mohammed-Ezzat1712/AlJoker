@@ -8,6 +8,7 @@ import blog5 from "../../../Images/blog5.jpg";
 import blog6 from "../../../Images/blog6.jpg";
 import { FaGasPump, FaTachometerAlt, FaRegKeyboard } from "react-icons/fa";
 import { FiArrowUp } from "react-icons/fi";
+
 const posts = [
   { id: 1, category: "Sound", image: blog1, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue.Nullam tempus ..." },
   { id: 2, category: "Accessories", image: blog2, date: "November 22, 2023", title: "2024 BMW ALPINA XB7 with exclusive details, extraordinary", desc: "Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis." },
@@ -37,6 +38,7 @@ const navigate = useNavigate();
   const selectedPosts = posts.slice(startIndex, startIndex + postsPerPage);
 
   return (
+
     <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-40 xl:mt-[-50px]  mt-[-20px] mb-[-50px] mx-auto px-4 py-10">
      <div className="mb-6 xl:px-12">
         <p className="text-[20px] font-medium ">

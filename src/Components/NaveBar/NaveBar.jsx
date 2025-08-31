@@ -74,8 +74,8 @@ export default function NaveBar() {
   return (
     <>
       {/* Navbar */}
-      <nav className="bg-black top-0 right-0 left-0 z-50 shadow-md relative">
-        <div className="flex justify-between items-center mx-auto px-4 lg:px-10 py-4">
+      <nav className="bg-black top-0 right-0 left-0 z-30 shadow-md relative">
+        <div className="flex justify-between items-center mx-auto px-4 lg:px-10 py-4 pb-20">
           {/* Left side */}
           <div className="flex items-center gap-8 px-2">
             <NavLink to="/" className="flex items-center">
@@ -190,7 +190,7 @@ export default function NaveBar() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="lg:hidden bg-black text-white absolute top-full left-0 w-full flex flex-col items-start p-5 space-y-4 z-30">
+          <div className="lg:hidden bg-black text-white  top-full left-0 w-full flex flex-col items-start p-5 space-y-4 z-50">
             {/* Links */}
             <NavLink to="/" className="w-full py-2 border-b border-gray-700" onClick={toggleMenu}>
               {isArabic ? "الرئيسية" : "Home"}

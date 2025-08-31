@@ -8,9 +8,10 @@ import About from './Components/About/About';
 
 import BlogDetails from './Components/BlogDetails/BlogDetails';
 import Brands from './Components/Brands/Brands';
-import Order from './Components/Order/Order';
+
 import ContactUs from './Components/ContactUs/ContactUs';
 import { LanguageProvider  } from './Context/LanguageContext';
+import YourOrder from './Components/YourOrder/YourOrder';
 
 
 
@@ -26,7 +27,8 @@ let x = createBrowserRouter([
     {path : "blog",element:<BlogPage/> },
     {path : "about",element:<About/> },
     {path : "contact",element:<ContactUs/> },
-    {path : "order",element:<Order/> },
+    {path : "yourorder",element:<YourOrder/> },
+   
     {path : "brands",element:<Brands/> },
     {path : "/blog/:id",element:<BlogDetails /> },
   ]},
