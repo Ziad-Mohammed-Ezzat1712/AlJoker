@@ -3,7 +3,7 @@ import bg from "../../../Images/CarSlidar.png";
 
 const BookingForm = () => (
   <div
-    className="lg:h-[800px] bg-cover bg-bottom flex items-center xl:mt-[-50px]  mt-[-20px] justify-center px-4"
+    className="lg:h-[800px] bg-cover bg-bottom flex items-center xl:mt-[-50px]  mt-[0px] justify-center px-4"
     style={{ backgroundImage: `url(${bg})` }}
   >
     <div className="bg-white h-auto md:h-[488px] mx-auto my-14 bg-opacity-95 p-6 md:p-10 rounded-lg w-full max-w-[1650px] shadow-lg">

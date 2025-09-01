@@ -21,7 +21,7 @@ export default function AboutSection1() {
 
         <div className="xl:flex flex-col md:flex-row  justify-around px-12 gap-4">
   {/* Left - Text */}
-  <div className="flex justify-center xl:max-w-[470px] xl:text-center md:text-left">
+  <div className="flex justify-center xl:max-w-[470px]  md:text-left">
     <h2 className="text-[40px] font-semibold">
       We Value Our Clients And Want Them To Have A Nice Experience
     </h2>

@@ -75,7 +75,7 @@ export default function Nav() {
     <>
       {/* Navbar */}
       <nav className="bg-black top-0 right-0 left-0 z-40 shadow-md relative">
-        <div className="flex justify-between items-center mx-auto px-4 lg:px-10 py-4 pb-4 xl:pb-4  md:pb-4 lg:pb-4">
+        <div className="flex justify-between items-center mx-auto px-4 lg:px-10 py-2  xl:pb-4  md:pb-4 lg:pb-4">
           {/* Left side */}
           <div className="flex items-center gap-8 px-2">
             <NavLink to="/" className="flex items-center">

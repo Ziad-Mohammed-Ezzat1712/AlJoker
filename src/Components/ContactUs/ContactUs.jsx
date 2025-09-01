@@ -21,7 +21,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="bg-white max-w-10xl xl:rounded-[60px] relative z-40 xl:mt-[-50px]  mt-[-20px] mb-[-50px] mx-auto px-4 py-10">
+    <div className="bg-white max-w-10xl xl:rounded-[60px] relative z-40 xl:mt-[-50px]  mt-[0px] mb-[-50px] mx-auto px-4 py-10">
      <div className="mb-6 px-5  lg:px-6 xl:px-40  max-w-[1500px]">
         <p className="text-[20px] font-medium">
           <span className="text-[#D72638]">Home</span> / Contact Us
