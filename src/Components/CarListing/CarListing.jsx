@@ -3,7 +3,7 @@ import cross from "../../../Images/cross.jpg";
 import { Bookmark } from "lucide-react";
 import { FiArrowUp } from "react-icons/fi";
 import { FaGasPump, FaTachometerAlt, FaCogs } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 const allCars = new Array(15).fill(null).map((_, index) => ({
   title: `T-Cross – 2023 #${index + 1}`,
   description: "4.0 D5 PowerPulse Momentum...",
@@ -87,12 +87,12 @@ const CarListing = () => {
               <span className="text-[20px] font-semibold text-[#0A0A23]">
                 {car.price}
               </span>
-              <button className="text-[#D72638] font-medium text-[18px]">
-                <span className="flex gap-x-1 cursor-pointer">
-                  View Details
-                  <FiArrowUp className="text-[20px] text-[#D72638] mt-1 rotate-[45deg]" />
-                </span>
-              </button>
+             <Link to={`/car/${index + 1}`} className="text-[#D72638] font-medium text-[18px]">
+  <span className="flex gap-x-1 cursor-pointer">
+    View Details
+    <FiArrowUp className="text-[20px] text-[#D72638] mt-1 rotate-[45deg]" />
+  </span>
+</Link>
             </div>
           </div>
         ))}

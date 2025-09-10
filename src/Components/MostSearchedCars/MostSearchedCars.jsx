@@ -10,6 +10,7 @@ import { FaGasPump,FaTachometerAlt,FaRegKeyboard   } from "react-icons/fa";
 // صور عربيات (تقدر تبدلها)
 import CarImg from "../../../Images/SUV.jpg";
 import cross from "../../../Images/cross.jpg";
+import { Link } from "react-router-dom";
 
 const categories = ["Sedan", "SUV", "Convertible", "Hatchback"];
 
@@ -156,7 +157,12 @@ export default function MostSearchedCars() {
                     {car.price}
                   </span>
                   <button className="text-[#D72638] font-medium   text-[18px] ">
-                   <span className="flex gap-x-1"> View Details<FiArrowUp className="text-[20px] text-[#D72638] mt-1 rotate-[45deg]" /></span> 
+                             <Link to={`/car/${car.id}`} className="text-[#D72638] font-medium text-[18px]">
+                    <span className="flex gap-x-1 cursor-pointer">
+                      View Details
+                      <FiArrowUp className="text-[20px] text-[#D72638] mt-1 rotate-[45deg]" />
+                    </span>
+                  </Link>
                   </button>
                 </div>
               </div>

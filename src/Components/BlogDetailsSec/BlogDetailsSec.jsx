@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP,FaCheck } from "react-icons/fa";
 
 
-const CarDetails = () => {
+const BlogDetailsSec = () => {
   const learnList = [
     "Become a UI/UX designer.",
     "You will be able to start earning money Figma skills.",
@@ -78,4 +78,4 @@ const CarDetails = () => {
   );
 };
 
-export default CarDetails;
+export default BlogDetailsSec;

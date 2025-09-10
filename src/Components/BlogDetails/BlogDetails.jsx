@@ -8,7 +8,7 @@ import blog4 from "../../../Images/blog4.jpg";
 import blog5 from "../../../Images/blog5.jpg";
 import blog6 from "../../../Images/blog6.jpg";
 import admin from "../../../Images/admin.jpg";
-import CarDetails from "../CarDetails/CarDetails";
+import BlogDetailsSec from "../BlogDetailsSec/BlogDetailsSec";
 import CommentsSection from "../CommentsSection/CommentsSection";
 import RelatedPosts from "../RelatedPosts/RelatedPosts";
 
@@ -37,7 +37,7 @@ export default function BlogDetails() {
         <p className="text-[20px] font-medium ">
           <span className="text-[#D72638] ">Home</span> / Blogs <span>/{post.title}</span>
         </p>
-        <h2 className="text-[40px] font-semibold mt-1">Vlogs</h2>
+        <h2 className="text-[40px] font-semibold mt-1">Blogs</h2>
         </div>
     <div className="max-w-[1700px] mx-auto ">
      <div className="flex gap-x-3 mb-5 items-center"> <img src={admin} alt="admin" className=" w-10 h-10 rounded-full" />
@@ -45,7 +45,7 @@ export default function BlogDetails() {
       <img src={post.image} alt={post.title} className="w-full xl:h-[650px] xl:object-cover object-contain  rounded-2xl mb-6" />
     
     </div>
-<CarDetails/> 
+<BlogDetailsSec/> 
 <CommentsSection/> 
 <RelatedPosts/> 
     </div>

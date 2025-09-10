@@ -5,14 +5,12 @@ import Layout from './Components/Layout/Layout';
 import OurCar from './Components/OurCar/OurCar';
 import BlogPage from './Components/BlogPage/BlogPage';
 import About from './Components/About/About';
-
 import BlogDetails from './Components/BlogDetails/BlogDetails';
 import Brands from './Components/Brands/Brands';
-
 import ContactUs from './Components/ContactUs/ContactUs';
 import { LanguageProvider  } from './Context/LanguageContext';
 import YourOrder from './Components/YourOrder/YourOrder';
-
+import CarDetail from './Components/CarDetail/CarDetail';
 
 
 
@@ -29,7 +27,7 @@ let x = createBrowserRouter([
     {path : "contact",element:<ContactUs/> },
     {path : "contact2",element:<ContactUs/> },
     {path : "yourorder",element:<YourOrder/> },
-   
+    {path : "/car/:id",element:<CarDetail/> },
     {path : "brands",element:<Brands/> },
     {path : "/blog/:id",element:<BlogDetails /> },
   ]},
