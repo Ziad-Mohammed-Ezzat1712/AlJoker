@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Volkswagen T-Cross",
+    "subtitle": "Compact SUV with great style",
+    "year": 2023,
+    "miles": "15 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 15000,
+    "image": "/images/cross.jpg"
+  },
+  {
+    "id": 2,
+    "title": "BMW X5",
+    "subtitle": "Luxury SUV with hybrid technology",
+    "year": 2024,
+    "miles": "5 Miles",
+    "fuel": "Hybrid",
+    "gear": "Automatic",
+    "price": 80000,
+    "image": "/images/blog1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mercedes GLC",
+    "subtitle": "Premium comfort and power",
+    "year": 2023,
+    "miles": "12 Miles",
+    "fuel": "Diesel",
+    "gear": "Automatic",
+    "price": 60000,
+    "image": "/images/blog2.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Audi Q7",
+    "subtitle": "Luxury SUV with cutting-edge features",
+    "year": 2024,
+    "miles": "7 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 75000,
+    "image": "/images/blog3.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Chevrolet Spark",
+    "subtitle": "Perfect city companion",
+    "year": 2022,
+    "miles": "20 Miles",
+    "fuel": "Petrol",
+    "gear": "Manual",
+    "price": 12000,
+    "image": "/images/cross.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Nissan Altima",
+    "subtitle": "Reliable sedan with great efficiency",
+    "year": 2023,
+    "miles": "18 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 25000,
+    "image": "/images/blog1.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Toyota Corolla",
+    "subtitle": "Most popular sedan worldwide",
+    "year": 2023,
+    "miles": "10 Miles",
+    "fuel": "Hybrid",
+    "gear": "Automatic",
+    "price": 22000,
+    "image": "/images/blog2.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Kia Sportage",
+    "subtitle": "Modern design and performance",
+    "year": 2024,
+    "miles": "8 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 30000,
+    "image": "/images/blog3.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Hyundai Tucson",
+    "subtitle": "Spacious SUV with latest tech",
+    "year": 2024,
+    "miles": "9 Miles",
+    "fuel": "Hybrid",
+    "gear": "Automatic",
+    "price": 32000,
+    "image": "/images/cross.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Ford Explorer",
+    "subtitle": "American full-size SUV",
+    "year": 2023,
+    "miles": "14 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 40000,
+    "image": "/images/blog1.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Range Rover Evoque",
+    "subtitle": "Luxury compact SUV",
+    "year": 2024,
+    "miles": "6 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 65000,
+    "image": "/images/blog2.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Porsche Cayenne",
+    "subtitle": "High performance SUV",
+    "year": 2024,
+    "miles": "4 Miles",
+    "fuel": "Hybrid",
+    "gear": "Automatic",
+    "price": 95000,
+    "image": "/images/blog3.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Tesla Model 3",
+    "subtitle": "Electric sedan with autopilot",
+    "year": 2024,
+    "miles": "0 Miles",
+    "fuel": "Electric",
+    "gear": "Automatic",
+    "price": 55000,
+    "image": "/images/cross.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Honda Civic",
+    "subtitle": "Sporty sedan with efficiency",
+    "year": 2023,
+    "miles": "11 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 20000,
+    "image": "/images/blog1.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Lamborghini Urus",
+    "subtitle": "Super SUV with luxury",
+    "year": 2024,
+    "miles": "2 Miles",
+    "fuel": "Petrol",
+    "gear": "Automatic",
+    "price": 200000,
+    "image": "/images/blog2.jpg"
+  }
+]

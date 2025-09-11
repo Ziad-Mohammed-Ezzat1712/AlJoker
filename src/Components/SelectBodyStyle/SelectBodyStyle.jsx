@@ -29,7 +29,7 @@ export default function SelectBodyStyle() {
   ];
 
   return (
-    <div className="text-center py-10 bg-[#F9FAFB]">
+    <div className="text-center py-10 bg-[#F9FAFB] overflow-hidden">
       <h2 className="text-[32px] md:text-[40px] font-semibold text-[#050B20] mb-10">
         {isArabic ? "اختر نوع السيارة" : "Select a Body Style"}
       </h2>

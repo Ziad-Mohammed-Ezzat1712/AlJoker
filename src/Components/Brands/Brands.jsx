@@ -25,7 +25,7 @@ export default function Brands() {
   ];
 
   return (
-    <div className="bg-white max-w-10xl lg:rounded-[60px] relative z-40 mt-[-50px] mb-[-50px] mx-auto px-4 py-10">
+    <div className="bg-white max-w-10xl lg:rounded-[60px] relative xl:z-40 lg:z-40  mt-[-50px] lg:mt-[-30px] mb-[-50px] mx-auto px-4 py-10">
     <div className="max-w-[1450px] mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-8">All Brands</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">

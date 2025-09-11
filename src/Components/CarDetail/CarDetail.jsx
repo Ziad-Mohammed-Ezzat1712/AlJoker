@@ -1,10 +1,10 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import cross from "../../../Images/cross.jpg";
 import { useState } from "react";
 import { FaGasPump, FaTachometerAlt, FaCogs } from "react-icons/fa";
 import CarDetailsCalendar from "../CarDetailsCalendar/CarDetailsCalendar";
 
-const allCars = new Array(5).fill(null).map((_, index) => ({
+const allCars = new Array(15).fill(null).map((_, index) => ({
   id: index + 1,
   title: "CHEVROLET SPARK",
   subtitle: "Chevrolet Spark: Your Ideal City Companion",
@@ -28,7 +28,17 @@ export default function CarDetail() {
 
   return (
     <div className="bg-white min-h-screen lg:mt-[-80px] lg:mb-[-80px] lg:rounded-[100px] py-10 px-4 md:px-10 relative z-40">
+       <div className="mb-6 xl:px-12">
+        <p className="text-[20px] font-medium ">
+          <span className="text-[#D72638] ">Home</span> / Car Details
+        </p>
+        <h2 className="text-[40px] font-semibold mt-1">Blogs</h2>
+        </div>
+    
+    
       {/* صورة + تفاصيل */}
+      
+      
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
         {/* الصور */}
         <div>

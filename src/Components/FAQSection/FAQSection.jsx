@@ -23,7 +23,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <div className="w-[90%] px-6 md:px-16 py-12 mx-auto">
+    <div className="w-[90%] px-6 md:px-16 py-12 mx-auto overflow-hidden">
       {/* Title */}
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold">

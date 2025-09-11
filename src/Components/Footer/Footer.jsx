@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       {/* Main Footer */}
-      <footer className="bg-black text-white px-2 md:px-30 pt-30 pb-10  border-b">
+      <footer className="bg-black text-white px-2 md:px-30 pt-30 pb-10  border-b overflow-hidden">
         <div className="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-1">
           {/* Logo */}
           <div className="w-[80%] flex flex-col gap-7 items-start ">

@@ -73,7 +73,7 @@ export default function MostSearchedCars() {
   const swiperRef = useRef(null);
 
   return (
-    <div className="py-12 xl:px-0  bg-white">
+    <div className="py-12 xl:px-0  bg-white overflow-hidden">
       {/* العنوان */}
       <h2 className="text-[40px] md:text-[40px] font-semibold text-center text-[#050B20] mb-8">
         The Most Searched Cars

@@ -53,7 +53,7 @@ export default function GetStartSection() {
   ];
 
   return (
-    <div className="max-w-7xl  mx-auto  grid md:grid-cols-2 gap-6">
+    <div className="max-w-7xl  mx-auto  grid md:grid-cols-2 gap-6 overflow-hidden">
       {cards.map((card, index) => (
         <div
           key={index}

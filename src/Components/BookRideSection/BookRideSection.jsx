@@ -4,7 +4,7 @@ import carImage from "../../../Images/sextion.jpg"; // ← غير المسار �
 export default function HeroSection() {
   return (
 
-    <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto ">
+    <div className="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto overflow-hidden ">
       {/* Left side - Text */}
       <div className="bg-black text-white xl:flex sm:flex md:flex lg:flex justify-between items-center xl:px-40 px-5  py-16 md:h-[442px] md:col-span-2 rounded-xl">
        <div> <h2 className="xl:text-[40px] text-[30px] font-semibold mb-4 leading-snug">

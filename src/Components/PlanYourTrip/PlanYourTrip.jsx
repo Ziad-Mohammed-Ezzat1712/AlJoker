@@ -35,7 +35,7 @@ export default function PlanYourTrip() {
   ];
 
   return (
-    <div className="bg-gray-100 py-16 w-[90%] mx-auto">
+    <div className="bg-gray-100 py-16 w-[90%] mx-auto overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10 items-start">
         {/* العنوان الكبير */}
         <h2 className="text-[32px] md:text-[40px] font-semibold text-[#050B20] leading-snug text-center md:text-left">
